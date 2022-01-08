@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": [
+      "ES2015",
+      "ES2015.Promise",
+      "DOM"
+    ],
+    "module": "es2015",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "target": "es2015",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "jsxFactory": "tsx",
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "./app/*"
+  ]
+}
